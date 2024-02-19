@@ -1,0 +1,38 @@
+window {
+    border: 0px;
+    border-radius: 10px;
+    background-color: rgba(30, 34, 42, 0.5);
+    color: #ABB2BF;
+}
+
+#input {
+    border-radius: 10px 10px 0px 0px;
+    border: 0px;
+    padding: 10px;
+    margin: 0px;
+    font-size: 18px;
+    background-color: #282C34;
+    color: #ABB2BF;
+}
+
+#inner-box {
+    margin: 0px;
+    padding: 20px;
+}
+
+#outer-box {
+    margin: 0px;
+    border-radius: 10px;
+}
+
+#entry {
+    outline: none;
+    transition: 0.1s;
+    font-size: 18px;
+    padding: 10px;
+}
+
+#entry:focus, #entry:selected {
+    background-color: inherit;
+    padding-left: 30px;
+}

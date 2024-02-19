@@ -1,2 +1,4 @@
+import = ["~/.config/alacritty/onedark.toml"]
+
 [font]
 normal = { family = "Hack Nerd Font Mono" }
